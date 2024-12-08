@@ -32,7 +32,7 @@ const FeaturedSection = () => {
           </span>
           <div className="p-4">
             <h4 className="text-xl font-semibold text-gray-800 mt-6">Lodest &apos;a la Madison #1 (L&apos;intergral)</h4>
-            <p className='mt-6'>We focous on ergnomic and meeting you and where you work .it's only a keystroke away</p>
+            <p className="mt-6">We focus on ergonomic design and meeting you where you work. It's only a keystroke away.</p>
             <div className="flex justify-between items-center text-sm text-gray-500 mt-2">
               <div className="flex items-center mt-6">
                 <MdAlarm className="text-red-500 mr-2" />
@@ -43,7 +43,7 @@ const FeaturedSection = () => {
                 <span>10 comments</span>
               </div>
             </div>
-            <a href="#" className=" text-blue-600 flex items-center mt-6">
+            <a href="#" className="text-blue-600 flex items-center mt-6">
               Learn More <IoIosArrowForward className="ml-2" />
             </a>
           </div>
@@ -63,7 +63,7 @@ const FeaturedSection = () => {
           </span>
           <div className="p-4">
             <h4 className="text-xl font-semibold text-gray-800 mt-6">Lodest &apos;a la Madison #1 (L&apos;intergral)</h4>
-            <p className='mt-6'>We focous on ergnomic and meeting you and where you work .it's only a keystroke away</p>
+            <p className="mt-6">We focus on ergonomic design and meeting you where you work. It's only a keystroke away.</p>
             <div className="flex justify-between items-center text-sm text-gray-500 mt-2">
               <div className="flex items-center mt-6">
                 <MdAlarm className="text-red-500 mr-2" />
@@ -94,7 +94,7 @@ const FeaturedSection = () => {
           </span>
           <div className="p-4">
             <h4 className="text-xl font-semibold text-gray-800 mt-6">Lodest &apos;a la Madison #1 (L&apos;intergral)</h4>
-            <p className='mt-6'>We focous on ergnomic and meeting you and where you work .it's only a keystroke away</p>
+            <p className="mt-6">We focus on ergonomic design and meeting you where you work. It's only a keystroke away.</p>
             <div className="flex justify-between items-center text-sm text-gray-500 mt-2">
               <div className="flex items-center mt-6">
                 <MdAlarm className="text-red-500 mr-2" />
