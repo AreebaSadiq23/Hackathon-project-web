@@ -1,13 +1,16 @@
 import React from 'react';
+import Image from 'next/image';
 
 const HeroSection = () => {
   return (
     <div className="relative bg-blue-100 py-56">
       <div className="absolute inset-0 w-full h-full">
-        <img
+        <Image
           src="/hero/img.png"
           alt="New Collection"
-          className="w-full h-full object-cover shadow-lg" 
+          layout="fill"  
+          objectFit="cover" 
+          className="shadow-lg"
         />
       </div>
 
@@ -29,8 +32,6 @@ const HeroSection = () => {
             Shop Now
           </a>
         </div>
-
-
       </div>
     </div>
   );

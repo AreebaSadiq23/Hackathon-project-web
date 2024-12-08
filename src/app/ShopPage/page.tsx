@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image"; 
 import {
   ChevronDownIcon,
   AdjustmentsHorizontalIcon,
@@ -36,9 +37,11 @@ const ShopPage = () => {
             className="shop-item text-center border p-4 rounded-md shadow-md hover:shadow-lg transition-shadow duration-200 relative"
           >
             {/* Image */}
-            <img
+            <Image
               src={src}
               alt={`Cloth ${index + 1}`}
+              width={400}  
+              height={200} 
               className="w-full h-48 object-cover rounded-md mb-4"
             />
 
@@ -96,10 +99,12 @@ const ShopPage = () => {
           "/logo/5.png",
           "/logo/6.png",
         ].map((src, index) => (
-          <img
+          <Image
             key={index}
             src={src}
             alt={`Brand Logo ${index + 1}`}
+            width={96}  
+            height={48} 
             className="w-24 h-auto"
           />
         ))}

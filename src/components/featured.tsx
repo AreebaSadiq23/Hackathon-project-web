@@ -2,6 +2,7 @@ import React from 'react';
 import { FaRegComment } from 'react-icons/fa'; 
 import { MdAlarm } from 'react-icons/md';
 import { IoIosArrowForward } from 'react-icons/io'; 
+import Image from 'next/image';
 
 const FeaturedSection = () => {
   return (
@@ -19,16 +20,18 @@ const FeaturedSection = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mt-10">
         {/* Card 1 */}
         <div className="bg-white rounded-lg shadow-lg overflow-hidden relative">
-          <img
+          <Image
             src="/editor/img16.png"
             alt="IMAGE"
+            width={500} 
+            height={256}
             className="w-full h-64 object-cover"
           />
           <span className="absolute top-4 left-4 bg-red-600 text-white text-xs font-bold px-3 py-1 rounded-lg">
             New
           </span>
           <div className="p-4">
-            <h4 className="text-xl font-semibold text-gray-800 mt-6">Lodest `a la Madison #1 (L'intergral)</h4>
+            <h4 className="text-xl font-semibold text-gray-800 mt-6">Lodest &apos;a la Madison #1 (L&apos;intergral)</h4>
             <p className='mt-6'>We focous on ergnomic and meeting you and where you work .it's only a keystroke away</p>
             <div className="flex justify-between items-center text-sm text-gray-500 mt-2">
               <div className="flex items-center mt-6">
@@ -48,16 +51,18 @@ const FeaturedSection = () => {
 
         {/* Card 2 */}
         <div className="bg-white rounded-lg shadow-lg overflow-hidden relative">
-          <img
+          <Image
             src="/editor/img17.png"
             alt="IMAGE"
+            width={500}  
+            height={256} 
             className="w-full h-64 object-cover"
           />
           <span className="absolute top-4 left-4 bg-red-600 text-white text-xs font-bold px-3 py-1 rounded-lg">
             New
           </span>
           <div className="p-4">
-            <h4 className="text-xl font-semibold text-gray-800 mt-6">Lodest `a la Madison #1 (L'intergral)</h4>
+            <h4 className="text-xl font-semibold text-gray-800 mt-6">Lodest &apos;a la Madison #1 (L&apos;intergral)</h4>
             <p className='mt-6'>We focous on ergnomic and meeting you and where you work .it's only a keystroke away</p>
             <div className="flex justify-between items-center text-sm text-gray-500 mt-2">
               <div className="flex items-center mt-6">
@@ -77,16 +82,18 @@ const FeaturedSection = () => {
 
         {/* Card 3 */}
         <div className="bg-white rounded-lg shadow-lg overflow-hidden relative">
-          <img
+          <Image
             src="/editor/img18.png"
             alt="IMAGE"
+            width={500}  
+            height={256} 
             className="w-full h-64 object-cover"
           />
           <span className="absolute top-4 left-4 bg-red-600 text-white text-xs font-bold px-3 py-1 rounded-lg">
             New
           </span>
           <div className="p-4">
-            <h4 className="text-xl font-semibold text-gray-800 mt-6">Lodest `a la Madison #1 (L'intergral)</h4>
+            <h4 className="text-xl font-semibold text-gray-800 mt-6">Lodest &apos;a la Madison #1 (L&apos;intergral)</h4>
             <p className='mt-6'>We focous on ergnomic and meeting you and where you work .it's only a keystroke away</p>
             <div className="flex justify-between items-center text-sm text-gray-500 mt-2">
               <div className="flex items-center mt-6">
