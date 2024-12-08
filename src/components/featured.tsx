@@ -8,10 +8,10 @@ const FeaturedSection = () => {
     <div className="py-20 px-4 bg-gray-50">
       {/* Practice Advice Section */}
       <div className="text-center mb-12">
-        <h3 className="text-xl font-semibold text-gray-600">Practice Advice</h3>
+        <h3 className="text-xl font-semibold text-blue-600">Practice Advice</h3>
         <h2 className="text-3xl font-bold text-gray-800 mt-4">Featured Product</h2>
-        <p className="text-lg text-gray-500 mt-4">
-          Problems solving and trying to resolve the conflict between the two major realms of classical physics. Newtonian mechanics and...
+        <p className="text-xl text-gray-500 mt-4">
+          Problems solving and trying to resolve the conflict between <br/>the two major realms of classical physics. Newtonian mechanics and...
         </p>
       </div>
 
